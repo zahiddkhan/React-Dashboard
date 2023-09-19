@@ -184,7 +184,7 @@ const Toggle = () => {
         </List>
       </Box>
 
-      <SpeedDial
+      {/* <SpeedDial
         ariaLabel="speed dail"
         sx={{ position: "fixed", bottom: 16, right: 16 }}
         icon={<SpeedDialIcon />}
@@ -192,7 +192,7 @@ const Toggle = () => {
         <SpeedDialAction icon={<FolderCopyIcon />} tooltipTitle="copy" />
         <SpeedDialAction icon={<LocalPrintshopIcon />} tooltipTitle="print" />
         <SpeedDialAction icon={<ScreenShareIcon />} tooltipTitle="share" />
-      </SpeedDial>
+      </SpeedDial> */}
 
     </>
   );
